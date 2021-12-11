@@ -1,43 +1,32 @@
 - fig:
-  title: "Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic "
+  title: "Fig. 1: Labeled vs Unlabeled Tubulin"
   filename: script1.py
-  desc:  Used to generate the figure1
-  pic: fig1.png
+  desc:  Time to catastrophe ECDF of fluorescently labeled or unlabeled tubulin with confidence intervals.
+  pic: micro1.png
   req:
     - ds: 
       storage: remote
-      title: Dataset 1
-      link: "http://data.caltech.edu"
+      title: Gardner time to catastrophe. Labeled and unlabeled.
+      link: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv
 
 - fig:
-  title: "Fig. 2: Activated charcoal tilde kombucha. "
+  title: "Fig. 2: Gamma Distribution Model and Two-step Model Assessment"
   filename: script2.py
-  desc: 
-      Used to generate Figure 2, illustrating activated kombucha on tap.
-  pic: fig2.png
+  desc:  Predictive ECDF and ECDF Difference plots used to assess which model is better.
+  pic: micro2.png
   req:
-    - ds:
-      title: Kombucha tempura desconstructed measures
-      storage: local 
-      link: dataset2.csv
     - ds: 
-      storage: local
-      title: Gravitational wave lo-fi beats to chill and study to
-      link: dataset2.csv
-
-- fig: 
-  title: "Fig. 5: Sustainable pour-over VHS"
-  filename: script1.py
-  desc:
-        Used to generate Figure 5, 
-  pic: fig3.png
-  req:
-    - ds:
-      title: Summarized dataset 1
-      storage: local
-      link: dataset1.csv
-
-    - ds:
-      title: Summarized dataset 2
       storage: remote
-      link: "http://zenodo.org" 
+      title: Various tubulin concentrations time to catastrophe times
+      link: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv
+      
+- fig:
+  title: "Fig. 3: Time to Catastrophe Parameter Estimates with Increasing Tubulin Concentration"
+  filename: script3.py
+  desc:  Parameter estimates with confidence intervals for time to catastrophe. Note that Concentration 0 = Concentration 7uM, Concentration 1 = Concentration 9uM, Concentration 2 = Concentration 10uM, Concentration 3 = Concentration 12uM, and Concentration 4 = Concentration 14uM.
+  pic: micro3.png
+  req:
+    - ds: 
+      storage: remote
+      title: Various tubulin concentrations time to catastrophe times
+      link: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv
