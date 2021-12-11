@@ -20,7 +20,11 @@ url: "" # Base of your website.In most cases, this will be left blank
 
 # You can include a logo for your work as a .png that is saved in the folder 
 # 'assets/img/'. If you want a logo to show up, put the filename of the logo here
+<<<<<<< HEAD
 #author-img: logo.png # Comment this line out if you don't want a logo
+=======
+# author-img: logo.png # Comment this line out if you don't want a logo
+>>>>>>> 800988c3602daed53925f8cad8b036316995360c
 
 
 # Build settings for the website. Do not modify this unless you know what you
