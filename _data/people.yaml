@@ -9,23 +9,23 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Dr. Osophila
-  link: "https://en.wikipedia.org/wiki/Drosophila"
-  title: Postdoctoral Scholar
-  img: dr_osophila.jpg
-  institute: Bicoid Institute of Development
+  name: Andres Rodriguez 
+  title: Year 1 Biology Graduate Student
+  img: loki.jpg
+  institute: California Institute of Technology
   other_info:
-     Email Address: "flyguy@university.edu"
+     Email Address: "amrodrig@caltech.edu"
+     
 - author:
-  name: Dr. Melanie O'Gaster
-  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-  title: Postdoctoral Scholar
-  img: melanogaster.jpg
-  institute: French Flag Research Institute
+  name: Adiel Perez
+  title: Year 1 Chemistry Graduate Student
+  img: thor.jpg
+  institute: FCalifornia Institute of Technology
   other_info:
-    Current Location: Apple Juice Plates, Inc
+    Email Address: "afperez@caltech.edu"
 
 - author:
-  name: Sally Monella
-  title: Research Technician
-  institute: French Flag Research Institute
+  name: Slothy the Sleeping Sloth
+  title: Head of Sleep and Good Vibes
+  img: sloth.jpg
+  institute: Catalina Apartments
