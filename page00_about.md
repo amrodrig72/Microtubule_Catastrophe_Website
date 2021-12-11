@@ -2,8 +2,8 @@
 layout: page
 title: About
 description: Information about the project, website, and links to the paper and SI
-img: about.png # Add image post (optional)
-caption: "A Serious Man (2010)"
+img: microtubule.png # Add image post (optional)
+caption: "Kinesin walking across a microtubule, from The Inner Life of a Cell by Cellular Visions and Harvard"
 permalink: index.html
 sidebar: true
 ---
