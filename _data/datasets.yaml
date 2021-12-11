@@ -1,13 +1,13 @@
 - dataset:
   storage: local
-  name: Gardner time to catastrophe. Labeled and Unlabeled.
+  name: Gardner time to catastrophe. Labeled and unlabeled.
   filetype: "gardner_time_to_catastrophe_dic_tidy.csv"
   link: dataset1.csv
-  filesize: "24 MB"
+  filesize: "11 KB"
 
 - dataset:
   storage: local
-  name: Various tubulin concentration, time to catastrop
+  name: Various tubulin concentrations time to catastrophe times. 
   filetype: "gardner_mt_catastrophe_only_tubulin.csv"
   link: dataset2.csv
 
