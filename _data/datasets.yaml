@@ -1,14 +1,14 @@
 - dataset:
-  storage: local
+  storage: remote
   name: Gardner time to catastrophe. Labeled and unlabeled.
-  filetype: "gardner_time_to_catastrophe_dic_tidy.csv"
+  filetype: ".csv"
   link: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv
   filesize: "5 KB"
 
 - dataset:
-  storage: local
+  storage: remote
   name: Various tubulin concentrations time to catastrophe times. 
-  filetype: "gardner_mt_catastrophe_only_tubulin.csv"
+  filetype: ".csv"
   link: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv
   filesize: "11 KB"
 
